@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className='flex h-24 items-center border-b'>
       <nav className='container flex justify-between text-white'>
         <div className='flex items-center'>
-          <Link className='text-2xl font-bold'>Movies.io</Link>
+          <Link className='text-2xl font-bold'>MoviesDB</Link>
           <div className='ml-8'>
             <NavLink
             to='/'
@@ -19,13 +19,13 @@ const Navbar = () => {
             >
               Home
             </NavLink>
-            <NavLink
+            {/* <NavLink
               className='px-8 py-3 text-base font-normal'
               style={({ isActive }) => (isActive ? activeStyle : null)}
-              to='movies'
+              to=''
             >
               Movies
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
         <input

@@ -28,7 +28,7 @@ const Home = () => {
       <div className='flex flex-wrap justify-center'>
         {movies.map((movie) => (
           <Card
-            key={movie.imdbId}
+            key={movie.imdbID}
             title={movie.Title}
             year={movie.year}
             poster={movie.Poster}
