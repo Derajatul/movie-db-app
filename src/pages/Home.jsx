@@ -20,11 +20,6 @@ const Home = () => {
   }, []);
   return (
     <section className='container  mt-7 text-white'>
-      {/* <h1 className='text-3xl font-bold'>Selamat Datang</h1>
-      <h2 className='mt-1 text-2xl'>
-        Jelajahi dunia film dengan kami - setiap cerita memiliki keajaiban yang
-        unik.
-      </h2> */}
       <div className='flex flex-wrap justify-center'>
         {movies.map((movie) => (
           <Card

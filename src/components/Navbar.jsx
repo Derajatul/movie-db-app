@@ -28,11 +28,11 @@ const Navbar = () => {
             </NavLink> */}
           </div>
         </div>
-        <input
+        {/* <input
           type='search'
           placeholder='Search'
           className='selection:border-non h-12 w-[270px] rounded-[46px] bg-[#192642] px-4'
-        />
+        /> */}
       </nav>
     </header>
   );
