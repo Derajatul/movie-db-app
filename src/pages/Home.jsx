@@ -8,7 +8,7 @@ const Home = () => {
     const fetchMovie = async () => {
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${encodeURIComponent(
+          `https://www.omdbapi.com/?s=${encodeURIComponent(
             search
           )}&apikey=eec38979`
         );
