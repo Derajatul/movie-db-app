@@ -29,7 +29,7 @@ const MovieDetail = () => {
         <img
           src={detail.Poster}
           alt={detail.Title}
-          className='max-w-[300px] rounded-3xl mx-auto '
+          className='max-w-[300px] rounded-3xl mx-auto lg:m-0'
         />
         <div className='mt-5 text-white lg:ml-10'> 
           <h2 className='text-xl font-bold lg:text-4xl'>{detail.Title}</h2>

@@ -1,31 +1,40 @@
-# Template Project React dengan Vite, Tailwind CSS, Prettier dan ESLint
+# MovieDB
+![Preview movieDB](./src/assets/movie-db-preview.png)
+## Overview
+This is a web application that utilizes the OMDBAPI to fetch movie data and displays it using a UI designed in Figma.
 
-Ini adalah sebuah template project untuk membuat aplikasi web menggunakan React, Vite, Tailwind CSS, Prettier dan ESLint. Template ini memudahkan kamu untuk membuat aplikasi web dengan cepat dan mudah, karena sudah terdapat konfigurasi dasar yang siap digunakan.
+## Features
+- Search for movies by title
+- View detailed information about a specific movie
+- Display movie posters and additional details
 
-## Fitur
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- OMDBAPI
+- Figma
 
-- Penggunaan React sebagai library JavaScript utama
-- Penggunaan Vite sebagai bundler dan dev server
-- Penggunaan Tailwind CSS sebagai CSS framework
-- Penggunaan Prettier untuk formatting kode
-- Penggunaan ESLint untuk menganalisis kode dan memastikan kepatuhan dengan standar kode
+## Usage
+1. Clone the repository: `git clone https://github.com/your-username/repository.git`
+2. Navigate to the project directory: `cd repository`
+3. Open the `index.html` file in your preferred web browser.
 
-## Persyaratan Sistem
+## Configuration
+To use the OMDBAPI, you will need to obtain an API key. Follow these steps to configure the application:
 
-- Node.js versi 12 atau lebih baru
-- NPM versi 6 atau lebih baru
+1. Visit the OMDBAPI website: [https://www.omdbapi.com/](https://www.omdbapi.com/)
+2. Sign up for an account and obtain an API key.
+3. Open the `script.js` file.
+4. Replace `'YOUR_API_KEY'` with your actual API key in the following line: 
+   ```javascript
+   const apiKey = 'YOUR_API_KEY';
 
-## Cara Menggunakan
+## Design
+The user interface of this web application was designed using Figma. You can view the UI design by accessing the following link: [Figma UI Design](https://www.figma.com/community/file/1205860363512453151/Movies.io)
 
-1. Clone repo ini
-2. Jalankan perintah `npm install` di dalam direktori project untuk menginstal semua dependensi
-3. Jalankan perintah `npm run dev` untuk memulai server development
-4. Buka browser dan akses http://localhost:3000 untuk melihat aplikasi web yang sedang berjalan
+## Credits
+- [OMDBAPI](https://www.omdbapi.com/)
 
-## Kontribusi
-
-Jika kamu ingin berkontribusi pada project ini, silahkan melakukan Pull Request dengan perubahan yang diinginkan. Jangan lupa untuk menjalankan perintah `npm run lint` untuk memastikan bahwa tidak ada error atau warning pada kode yang kamu tulis.
-
-## Lisensi
-
-Project ini dilisensikan di bawah MIT License - silahkan lihat file LICENSE untuk detailnya.
+## License
+This project is licensed under the [MIT License](LICENSE).
