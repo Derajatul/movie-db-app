@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Loading from '../components/Loading';
 
 const MovieDetail = () => {
   const params = useParams();
@@ -19,7 +20,7 @@ const MovieDetail = () => {
   }, [params.title]);
 
   if (loading) {
-    return <p>Loading...</p>;
+    return <Loading />;
   }
 
   return (
