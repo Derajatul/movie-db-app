@@ -12,6 +12,8 @@ This is a web application that utilizes the OMDBAPI to fetch movie data and disp
 - HTML
 - CSS
 - JavaScript
+- React
+- TailwindCSS
 - OMDBAPI
 - Figma
 
