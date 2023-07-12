@@ -10,7 +10,7 @@ const Navbar = () => {
     <header className='flex h-24 items-center border-b'>
       <nav className='container flex justify-between text-white'>
         <div className='flex items-center'>
-          <Link className='text-2xl font-bold'>MoviesDB</Link>
+          <Link className='text-2xl font-bold' to='/'>MoviesDB</Link>
           <div className='ml-8'>
             <NavLink
             to='/'

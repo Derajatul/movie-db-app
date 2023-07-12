@@ -24,16 +24,16 @@ const MovieDetail = () => {
 
   return (
     <section className='container'>
-      <div className='mt-10 flex'>
+      <div className='mt-10 flex flex-wrap lg:flex-nowrap'>
         <img
           src={detail.Poster}
           alt={detail.Title}
-          className='  w-[300px] rounded-3xl'
+          className='max-w-[300px] rounded-3xl mx-auto '
         />
-        <div className='ml-10 text-white'>
-          <h2 className='text-4xl font-bold'>{detail.Title}</h2>
-          <div className='flex mt-6'>
-            <div className='w-[486px]'>
+        <div className='mt-5 text-white lg:ml-10'> 
+          <h2 className='text-xl font-bold lg:text-4xl'>{detail.Title}</h2>
+          <div className='flex mt-6 flex-wrap lg:flex-nowrap'>
+            <div>
               <h3 className='text-base font-bold text-white'>STORYLINE</h3>
               <p className='mt-3 text-base font-normal'>{detail.Plot}</p>
               <div className='mt-6 flex'>
@@ -57,7 +57,7 @@ const MovieDetail = () => {
                 <h3 className='flex-1'>{detail.Runtime}</h3>
               </div>
             </div>
-            <div className='ml-7'>
+            <div className='lg:ml-5'>
               <h3 className='text-base font-bold text-white'>Writen By</h3>
               <p className='mt-3 text-base font-normal'>{detail.Writer}</p>
             </div>
